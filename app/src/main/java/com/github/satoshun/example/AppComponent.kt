@@ -1,5 +1,6 @@
 package com.github.satoshun.example
 
+import com.github.satoshun.example.feature.main.MainBuilder
 import com.github.satoshun.example.feature.sub1.Sub1Builder
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule

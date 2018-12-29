@@ -1,12 +1,13 @@
-package com.github.satoshun.example
+package com.github.satoshun.example.feature.main
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.github.satoshun.example.feature.sub1.Sub1Router
 import dagger.android.AndroidInjection
 import javax.inject.Inject
 
-class MainActivity : BaseActivity() {
+class MainActivity : AppCompatActivity() {
   @Inject lateinit var sub1Router: Sub1Router
 
   override fun onCreate(savedInstanceState: Bundle?) {

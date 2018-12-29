@@ -1,4 +1,4 @@
-package com.github.satoshun.example
+package com.github.satoshun.example.feature.main
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector

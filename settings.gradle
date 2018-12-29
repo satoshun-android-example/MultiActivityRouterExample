@@ -1,5 +1,7 @@
 include ':app'
 
+include ':main1'
+
 include ':sub1'
 include ':sub1-router'
 
