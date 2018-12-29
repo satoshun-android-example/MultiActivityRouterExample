@@ -1,0 +1,21 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+  compileSdkVersion Vers.compile_sdk
+
+  defaultConfig {
+    minSdkVersion Vers.min_sdk
+  }
+}
+
+dependencies {
+  implementation Libs.kotlin
+
+  implementation Libs.dagger
+  kapt Libs.dagger_processor
+  implementation Libs.dagger_android
+  kapt Libs.dagger_android_processor
+  implementation Libs.dagger_android_support
+}
