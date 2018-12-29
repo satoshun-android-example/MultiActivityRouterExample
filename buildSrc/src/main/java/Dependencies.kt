@@ -11,6 +11,7 @@ object Libs {
   const val android_plugin = "com.android.tools.build:gradle:3.4.0-alpha09"
   const val kotlin_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Vers.kotlin}"
   const val versions_plugin = "com.github.ben-manes:gradle-versions-plugin:0.20.0"
+  const val jetifier_plugin = "com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta02"
 
   const val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:${Vers.kotlin}"
   const val coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Vers.couroutine}"
