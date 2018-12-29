@@ -13,7 +13,5 @@ android {
 }
 
 dependencies {
-  implementation project(':sub1')
-
   implementation Libs.kotlin
 }
