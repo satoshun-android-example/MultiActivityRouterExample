@@ -1,1 +1,1 @@
-# Groupie example
+# Multi Module Activities transitions example
