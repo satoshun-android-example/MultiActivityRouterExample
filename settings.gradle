@@ -2,3 +2,5 @@ include ':app'
 
 include ':sub1'
 include ':sub1-router'
+
+include ':di'
