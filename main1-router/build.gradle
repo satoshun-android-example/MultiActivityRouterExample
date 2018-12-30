@@ -13,17 +13,5 @@ android {
 }
 
 dependencies {
-  implementation project(':main1-router')
-
-  implementation project(':sub1-router')
-
   implementation Libs.kotlin
-
-  implementation Libs.appcompat
-
-  implementation Libs.dagger
-  kapt Libs.dagger_processor
-  implementation Libs.dagger_android
-  kapt Libs.dagger_android_processor
-  implementation Libs.dagger_android_support
 }
