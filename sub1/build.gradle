@@ -16,6 +16,8 @@ android {
 dependencies {
   implementation project(':sub1-router')
 
+  implementation project(':main1-router')
+
   implementation Libs.kotlin
 
   implementation Libs.appcompat
