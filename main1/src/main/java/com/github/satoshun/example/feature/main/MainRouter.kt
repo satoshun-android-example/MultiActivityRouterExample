@@ -9,3 +9,9 @@ internal class MainRouterImpl @Inject constructor() : MainRouter {
     return Intent(context, MainActivity::class.java)
   }
 }
+
+internal class MainRouter2Impl @Inject constructor() : Router<Unit> {
+  override fun route(context: Context, params: Unit): Intent {
+    return Intent(context, MainActivity::class.java)
+  }
+}

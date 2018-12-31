@@ -44,6 +44,8 @@ android {
 }
 
 dependencies {
+  implementation project(':router')
+
   implementation project(':main1-router')
   implementation project(':main1')
 
